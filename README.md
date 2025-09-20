@@ -1,16 +1,19 @@
-# first_app
+# My First Flutter App 👋
 
-A new Flutter project.
+A simple personal profile card built with Flutter. This was my first project after learning Dart, built to practice basic widget composition, state management, and styling.
 
-## Getting Started
+## What I Practiced
+- Using `StatelessWidget` and `StatefulWidget`
+- Layout with `Column`, `Row`, and `Container`
+- Managing state with `setState()`
+- Network images with `CircleAvatar`
+- Theming and basic styling
 
-This project is a starting point for a Flutter application.
+## How to Run
+1. Ensure you have the Flutter SDK installed.
+2. Clone this repository.
+3. Run `flutter pub get` to install dependencies.
+4. Run `flutter run -d chrome` to launch the app on the web.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+*Part of my journey to becoming a Flutter developer.*
