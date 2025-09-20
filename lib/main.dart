@@ -28,9 +28,9 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Profile Card'),
     );
   }
 }
@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Container(
-        color: Colors.deepPurple[50],
+        color: Colors.blueAccent[50],
         padding: EdgeInsets.all(20.0),
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
               SizedBox(height: 5),
               Text(
                 myTitle,
-                style: TextStyle(fontSize: 18, color: Colors.deepPurple[700]),
+                style: TextStyle(fontSize: 18, color: Colors.blueAccent[700]),
               ),
               SizedBox(height: 20),
               // Bio
@@ -146,7 +146,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     value: _skillLevel / 10,
                     backgroundColor: Colors.grey[300],
                     valueColor: AlwaysStoppedAnimation<Color>(
-                      Colors.deepPurple,
+                      Colors.blueAccent,
                     ),
                   ),
                 ],
@@ -158,7 +158,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementSkill, // Now calls our new method
         tooltip: 'Gain Experience',
-        backgroundColor: Colors.deepPurple, // Match the theme
+        backgroundColor: Colors.blueAccent, // Match the theme
         child: const Icon(Icons.auto_awesome), // A more relevant icon
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
